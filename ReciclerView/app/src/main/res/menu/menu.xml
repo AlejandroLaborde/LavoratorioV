@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/opcionBuscar"
+        android:title="Buscar"
+        android:orderInCategory="90"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/op1"
+        android:title="Opcion 1"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/op2"
+        android:title="Opcion 2"
+        android:orderInCategory="101"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/opcion3"
+        android:title="Opcion 3"
+        android:orderInCategory="90"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_camera"/>
+    <item
+        android:id="@+id/add"
+        android:title="Agregar"
+        android:orderInCategory="101"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="always"/>
+
+
+</menu>
