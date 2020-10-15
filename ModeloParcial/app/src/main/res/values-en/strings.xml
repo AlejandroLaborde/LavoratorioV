@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Model Parcial</string>
+    <string name="cantidad">Count: </string>
+    <string name="precio">Unit Price: </string>
+</resources>
